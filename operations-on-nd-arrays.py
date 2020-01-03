@@ -13,5 +13,6 @@ def test_run():
 	print "Max of each column:\n", a.min(axis=0)
 	print "Mean of each row:\n", a.mean(axis=1)
 	print "Mean of each column:\n", a.mean(axis=0)
+	print a.argmax()
 
 test_run()
